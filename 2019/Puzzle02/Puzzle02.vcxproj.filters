@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4a54da8f-f1d5-441e-b7da-f317c6109ef6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{20d020b0-411e-4f87-bc4c-92c352a3f648}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Problem">
+      <UniqueIdentifier>{bc240f11-847d-454e-96e5-8563c589c02f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Problem\FirstHalf">
+      <UniqueIdentifier>{c8da3d53-9dbb-4927-97fc-e89b23ba872a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Problem\SecondHalf">
+      <UniqueIdentifier>{b682255b-2ece-40a1-a8fd-e68552bd5fe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Driver">
+      <UniqueIdentifier>{78c85996-2325-4908-b014-969fd32119ac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Module.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Spacecraft.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Fuel.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Driver\DriverFirstHalf.h">
+      <Filter>Source\Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Driver\IDriver.h">
+      <Filter>Source\Driver</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Spacecraft.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Fuel.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Module.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Driver\main.cpp">
+      <Filter>Source\Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Driver\DriverFirstHalf.cpp">
+      <Filter>Source\Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Driver\IDriver.cpp">
+      <Filter>Source\Driver</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
